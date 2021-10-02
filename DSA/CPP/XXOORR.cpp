@@ -2,10 +2,6 @@
 using namespace std;
 #define ll long long int
 
-void dec_to_bin(ll n) {
-    
-}
-
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -23,7 +19,6 @@ int main() {
             int pos = 31;
             while(x != 0) {
                 res[pos] += (x%2);
-                
                 x /= 2;
                 pos--;
             }
